@@ -2,7 +2,7 @@ package com.example.exercises52.model;
 
 import org.springframework.stereotype.Component;
 
-@Component
+
 public class PersonaModel {
     private String name;
     private String city;
