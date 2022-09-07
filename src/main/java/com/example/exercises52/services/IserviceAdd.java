@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 @Service
 public interface IserviceAdd {
 
-
     PersonaModel addPeople(String name, String city, int Age);
+
+    PersonaModel getObject();
 }
